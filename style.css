@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+body{
+	background-image: url("/images/bg-intro-desktop.png");
+	background-color: hsl(0, 100%, 74%);
+
+	display: grid;
+	min-height: 100vh;
+	place-content: center;
+}
+
+.heading{
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: white;
+	width: 60%;
+	line-height: 1.2em;
+}
+
+.paragraph{
+	width: 75%;
+	color: white;
+}
+
+.container{
+	display: flex;
+	width: 83%;
+	margin: 0 auto;
+}
+
+.cont_child{
+	width: 80%;
+	margin-top: 6em;
+}
+
+.sub-container{
+	display: flex;
+	flex-direction: column;
+/*	background-color: red;*/
+	width: 55%;
+}
+
+
+.limit{
+	background: hsl(248, 32%, 49%);
+	color: white;
+	font-size: .8rem;
+  padding: 0.9em 5em;
+  border-radius: 0.4em;
+  box-shadow: 0px 8px 0px #33333328;
+  text-decoration: none;
+  border: 2px solid hsl(248, 32%, 49%);
+  outline: none;
+	width: 94%;
+}
+
+.form-div{
+	margin-top: 1.2em;
+	background-color: white;
+	width: 94%;
+	border-radius: 0.4em;
+}
+
+form{
+	margin-top: 1.2em;
+	width: 85%;
+    margin: 0 auto;
+}
+
+.inp{
+	padding: 1em 0em 1em 0em;
+    width: 100%;
+    margin-top: 1.1em;
+
+    border: 1.5px solid #F7F7F7;
+    border-radius: 0.4em;
+    font-weight: 500;
+    text-indent: 2.5em;
+}
+
+input[type=text]:focus,input[type=email]:focus, input[type=password]:focus{
+  outline: 1.5px solid #343434;
+}
+
+::placeholder {
+  font-weight: bold;
+  color: #8A898F;
+}
+
+.submit-btn{
+	width: 100%;
+  padding: 1em 0em;
+  margin-top: 1.1em;
+  outline: none;
+  border-radius: 0.4em;
+  border: 2px solid #F7F7F7;
+  background: hsl(154, 59%, 51%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-left: .2em;
+  cursor: pointer;
+}
+
+.terms{
+	font-size: .6em;
+	width: 89%;
+  margin: 1.1em auto;
+  text-align: center;
+  color: #C3C2CC;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.warning{
+  font-size: 11px;
+  font-weight: 500;
+  color: hsl(0, 100%, 74%);
+  text-align: end;
+  margin-top: 6px;
+}
+
+.warning-border{
+ border: 2px solid hsl(0, 100%, 74%);
+ color: hsl(0, 100%, 74%);
+}
+
+.icon{
+  background-image: url(images/icon-error.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 320px;
+
+}
+
+footer{
+  position: relative;
+  bottom: -3em;
+}
+
+@media screen and (max-width:62.5rem){
+	.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.cont_child {
+  width: 100%;
+  margin-top: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+	
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  width: unset;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+.paragraph {
+  width: unset;
+  color: white;
+  text-align: center;
+}
+
+.limit {
+  background: hsl(248, 32%, 49%);
+  text-align: center;
+  color: white;
+  
+  font-size: .8rem;
+  padding: 0.9em 5em;
+  border-radius: 0.4em;
+  box-shadow: 0px 8px 0px #33333328;
+  text-decoration: none;
+  border: 2px solid hsl(248, 32%, 49%);
+  outline: none;
+  width: unset;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  
+  width: unset;
+}
+
+.form-div {
+  width: 100%;
+}
+
+.terms {
+  font-size: .6em;
+  width: unset;
+  text-align: center;
+}
+
+.icon{
+  background-image: unset;
+}
+
+}
