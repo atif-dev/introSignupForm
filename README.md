@@ -40,7 +40,7 @@ Your users should be able to:
 
 ### Links
 
-- Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/manage-landing-page-using-tailwind-css-OSrwvHgo4A
+- Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/intro-component-with-sign-up-form-kJxiE1Llm-
 - Live Site URL: https://atif-dev.github.io/introSignupForm/
 - Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=V7KRegj-UvZ_b85j39tvKQ
 - GitHub repo : https://github.com/atif-dev/introSignupForm
