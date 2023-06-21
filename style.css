@@ -5,10 +5,12 @@
 }
 
 body{
-	background-image: url("/images/bg-intro-desktop.png");
+	background-image: url("images/bg-intro-desktop.png");
 	background-color: hsl(0, 100%, 74%);
-
-	display: grid;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
 	min-height: 100vh;
 	place-content: center;
 }
@@ -30,6 +32,8 @@ body{
 	display: flex;
 	width: 83%;
 	margin: 0 auto;
+
+
 }
 
 .cont_child{
