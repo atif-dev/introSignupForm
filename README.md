@@ -4,7 +4,7 @@
 
 # Frontend Mentor - Intro component with sign up form
 
-This is a solution to the [Intro component with sign up form coding challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db) by frontendmentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Intro component with sign up form coding challenge](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) by frontendmentor. Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -35,19 +35,20 @@ Your users should be able to:
 
 ### Screenshots
 
-![PC View](https://github.com/atif-dev/adviceGenerator/blob/main/screenshots/mobile.png?raw=true)
-![Mobile view](https://github.com/atif-dev/adviceGenerator/blob/main/screenshots/pc.png?raw=true)
+![PC View](https://github.com/atif-dev/introSignupForm/blob/main/screenshots/pc.png?raw=true)
+![Mobile view](https://github.com/atif-dev/introSignupForm/blob/main/screenshots/mobile.png?raw=true)
 
 ### Links
 
 - Frontend Mentor solution url:  https://www.frontendmentor.io/solutions/manage-landing-page-using-tailwind-css-OSrwvHgo4A
-- Live Site URL: https://atif-dev.github.io/adviceGenerator/
-- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=_UgG8JB8Jdp0XNH5Kc8GDg
-- GitHub repo : https://github.com/atif-dev/adviceGenerator
+- Live Site URL: https://atif-dev.github.io/introSignupForm/
+- Google Mobile Friendly Test: https://search.google.com/test/mobile-friendly/result?id=5XMOyXn1l2BqU6GyxlZ6dA
+- GitHub repo : https://github.com/atif-dev/introSignupForm
 
 ## My process
 
   - Used existing knowledge.
+  - New thing: find out about: CSS text-indent property,unset value for a property.
   - Trace someone else code for learning API working.
   - Used Responsively desktop app for checking responsiveness.
   - Used LT browser for checking responsiveness and screenshots.
